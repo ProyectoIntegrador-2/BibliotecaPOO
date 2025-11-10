@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatosGlobales.cs" />
+    <Compile Include="Devolucion.cs" />
     <Compile Include="Estructuras\ListaDobleEnlazada.cs" />
     <Compile Include="Estructuras\NodoDoble.cs" />
     <Compile Include="FrmBuscarLibro.cs">
@@ -97,9 +98,16 @@
     <Compile Include="FrmRegistrarLibro.Designer.cs">
       <DependentUpon>FrmRegistrarLibro.cs</DependentUpon>
     </Compile>
+    <Compile Include="HistorialDevoluciones.cs" />
     <Compile Include="Models\Libro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDevolucion.resx">
+      <DependentUpon>FrmDevolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialDevoluciones.resx">
+      <DependentUpon>FrmHistorialDevoluciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
