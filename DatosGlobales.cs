@@ -10,5 +10,7 @@ namespace BibliotecaPOO
     public static class DatosGlobales
     {
         public static ListaDobleEnlazada ListaLibros = new ListaDobleEnlazada();
+
+        public static ColaPrestamos ListaPrestamos = new ColaPrestamos();
     }
 }
