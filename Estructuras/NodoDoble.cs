@@ -9,15 +9,13 @@ namespace BibliotecaPOO.Estructuras
 {
     public class NodoDoble
     {
-        public Libro Data { get; set; }
-        public NodoDoble Prev { get; set; }
-        public NodoDoble Next { get; set; }
+        public Libro Dato { get; set; }
+        public NodoDoble Anterior { get; set; }
+        public NodoDoble Siguiente { get; set; }
 
-        public NodoDoble(Libro libro)
+        public NodoDoble(Libro dato)
         {
-            Data = libro;
-            Prev = null;
-            Next = null;
+            Dato = dato;
         }
     }
 }
